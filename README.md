@@ -9,6 +9,7 @@ This project is a comprehensive data visualization and calculation tool designed
 - **Chart Building**: 
   - Create dynamic and interactive charts (Line, Bar, Pie, Area) from user-provided JSON data.
   - Customize chart types and view data with labels for better understanding.
+  - Save the rendered charts as JPG files.
 
 - **Calculation Tool**: 
   - Calculate minimum, maximum, and total values from the provided JSON data.
@@ -18,38 +19,30 @@ This project is a comprehensive data visualization and calculation tool designed
   - Display a summary of data visualizations and calculations.
   - Specifically tailored to display data summaries related to Blackcoffer projects.
 
+### Recent Enhancements
+
+- **Advanced Dashboard Development**:
+  - Developed an engaging and interactive dashboard for data visualization using the MERN stack and advanced chart libraries.
+  - Implemented advanced filtering and sorting capabilities using Recharts and Chart.js, efficiently summarizing over 1,000+ MongoDB entries.
+  - Optimized search and sort operations, achieving completion in 10 milliseconds, enhancing data accessibility and visualization efficiency.
+  - Created a RESTful API for efficient data operations and integrated it with a React front-end. Operations were performed using the aggregate method in MongoDB.
+
 ## Installation
 
 1. Clone the repository:
 
-   ```bash
    git clone https://github.com/yourusername/yourprojectname.git
-Navigate to the project directory:
 
-cd yourprojectname
-Install dependencies:
+2. Navigate to the project directory:
 
+   cd yourprojectname
 
-npm install
-Start the development server:
+3. Install dependencies:
 
+   npm install
 
-npm start
-Usage
-Custom Graph Page
-Navigate to the "Custom Graph" page.
-Enter your data in JSON format into the provided text area.
-Select the type of chart you wish to render (Line, Bar, Pie, Area).
-The chart will be dynamically generated based on your input.
-Calculate Page
-Navigate to the "Calculate" page.
-Enter your data in JSON format into the provided text area.
-Use the provided buttons to calculate minimum, maximum, and total values.
-Enter a value to perform comparisons (greater than, less than, equal to) and retrieve the matching JSON data set.
-Summary Dashboard
-View summaries and insights related to the data visualizations and calculations specific to Blackcoffer data.
-Contributing
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
+4. Start the development server:
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+   npm start
+
+Your application should now be running on [http://localhost:3000](http://localhost:3000).
