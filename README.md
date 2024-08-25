@@ -31,7 +31,7 @@ This project is a comprehensive data visualization and calculation tool designed
 
 1. Clone the repository:
 
-   git clone https://github.com/yourusername/yourprojectname.git
+   git clone https://github.com/Riya79hp/Chart-tea.git
 
 2. Navigate to the project directory:
 
